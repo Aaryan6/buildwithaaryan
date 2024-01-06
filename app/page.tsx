@@ -1,6 +1,8 @@
-import { Hero } from "@/components/component/hero";
-import { LoginForm } from "@/components/component/login-form";
-
 export default function Home() {
-  return <Hero />;
+  const a = 0;
+  const b = "hello";
+  const c = a ?? b;
+  console.log(c);
+
+  return;
 }
